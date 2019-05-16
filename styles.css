@@ -21,3 +21,12 @@ body{
   .filtered{
      display: none !important;
   }
+
+  .added:nth-last-child(1){
+    animation: slide 0.3s ease-in;
+  }
+
+  @keyframes slide{
+    0%{transform: translate(-100px,0px); opacity: 0}
+    100%{transform: translate(0px,0px); opacity: 1;}
+  }
