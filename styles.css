@@ -1,32 +1,19 @@
 body{
-    background: #352f5b;
-  }
-  .container{
-    max-width: 400px;
-  }
-  input[type=text],
-  input[type=text]:focus{
-    color: #fff;
-    border: none;
-    background: rgba(0,0,0,0.2);
-    max-width: 400px;
-  }
-  .todos li{
-    background: #423a6f;
-  }
-  .delete{
-    cursor: pointer;
-  }
+  background: #333;
+}
 
-  .filtered{
-     display: none !important;
-  }
+.clock{
+  font-size: 4em;
+  text-align: center;
+  margin: 200px auto;
+  color: yellow;
+  font-family: 'Dancing Script', cursive;
+}
 
-  .added:nth-last-child(1){
-    animation: slide 0.3s ease-in;
-  }
+.clock span{
+  padding: 20px;
+  background: #444;
+  border-radius: 25%;
+}
 
-  @keyframes slide{
-    0%{transform: translate(-100px,0px); opacity: 0}
-    100%{transform: translate(0px,0px); opacity: 1;}
-  }
+
